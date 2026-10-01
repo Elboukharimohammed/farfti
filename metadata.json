@@ -1,0 +1,6 @@
+{
+  "name": "HARFTI - Local Craftsmen Marketplace",
+  "description": "Discover authentic local craftsmen, explore handcrafted works, and connect directly with master artisans through instant messaging.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

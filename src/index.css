@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-terracotta: #BE826A;
+    --brand-terracotta-hover: #A96E57;
+    --brand-bg: #F8F7F4;
+    --brand-card: #FFFFFF;
+    --brand-text: #2D2A26;
+    --brand-muted: #7A7571;
+  }
+
+  .dark {
+    --brand-bg: #151515;
+    --brand-card: #1F1F1F;
+    --brand-text: #F3F1ED;
+    --brand-muted: #9E9893;
+  }
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+  min-height: 100vh;
+}
+
+.font-logo {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.18em;
+}
+
+[dir="rtl"] {
+  font-family: 'Noto Sans Arabic', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
